@@ -4,7 +4,24 @@
 # the store will discount the customer’s subtotal by 10%.
 
 # Get subtotal
-subtotal = float(input("Please enter the subtotal. "))
+subtotal = None
+quantity = None
+
+item_subtotal = []
+item_quantity = []
+
+while quantity != 0:
+    subtotal = float(input("Please enter the price of the item. "))
+    quantity = int(input("Please enter the number of items. "))
+    
+    item_subtotal.append(subtotal)
+    item_quantity.append(quantity)
+
+#calculating quantity and subtotal
+for item in range(len(item_subtotal)):
+    total_quantity_and_item_cost = item_subtotal[item] * item_quantity[item]
+    subtotal += total_quantity_and_item_cost
+
 
 # Get day of week
 from datetime import datetime
@@ -27,7 +44,7 @@ if subtotal > 50:
 else :
     # Finally add 6% sales tax
     sales_tax_amount = subtotal * .06
-    subtotal = subtotal - sales_tax_amount
+    subtotal = subtotal + sales_tax_amount
 
     # Return the final total.
     print(f"Your total is: ${subtotal:.2f}")
