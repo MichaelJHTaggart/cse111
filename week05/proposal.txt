@@ -1,0 +1,23 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program? project_management.py
+
+2. What real-world problem will your program address or help to solve? A place for people to store the amount of time they have spent on a particular project. Keeping track of time spent on a project is essential to many businesses, and allows us to be able to measure many things about how well the business is doing.
+
+3. What will you learn from developing this program? How to develop a python program with a complete graphical user interface (GUI), including windows, frames, labels, text fields, and buttons.
+
+4. What Python modules will your program use? tkinter
+
+5. List the names of functions you will need? create_project, create_event
+
+6. List the names of the test functions you will write. test_create_project, test_create_event
+
